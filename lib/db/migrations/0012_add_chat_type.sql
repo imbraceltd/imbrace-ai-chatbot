@@ -1,0 +1,1 @@
+ALTER TABLE "Chat" ADD COLUMN IF NOT EXISTS "type" varchar(20) NOT NULL DEFAULT 'chat';
